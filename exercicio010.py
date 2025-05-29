@@ -1,5 +1,7 @@
-# Renata quer solicitar um financiamento, mas precisa verificar se cumpre os critérios:
+salario mensal = float(int(input("digite o salario do mês de renata: "))
+parcela_maxima = salario _mês * 0.35
 
-# Salário mensal acima de R$ 3.000,00
-# A parcela não pode ser maior que 35% do salário
+if salario_mês < 3000:
+   print("renata tem salario superior a R$ 3.000,00")
+   print("a parcela maxima que ela pode ter é: R$")
 
