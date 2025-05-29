@@ -8,4 +8,7 @@ média = soma 3
 
 if média >=7:
     print("aprovado")
-elif média
+elif média 5 e <7
+    print("recuperação")
+else média <5:
+    print("reprovado")
