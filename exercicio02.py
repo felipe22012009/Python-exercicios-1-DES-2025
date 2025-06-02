@@ -1,5 +1,9 @@
-#  Juliana está coordenando entregas de projetos e precisa calcular o tempo total necessário 
-# para finalizar três tarefas: X, Y e Z.
-#  Se alguma tarefa estiver com o tempo de entrega negativo, deve-se exibir uma mensagem de 
-# erro e não somar o total.
+ dia_01 = int(input("dias para atividade 01"))
+ dia_02 = int(input("dias para atividade 02"))
+ dia_03 = int(input("dias para atividade 03"))
 
+ if dia_01 < 0 or dia_02 < 0 or dia_03 < 0:
+    print("erro números negativo")
+else:
+    soma = dias_01 + dias_02 + dias_03
+    print(f"tempo total do projeto:{soma} dias")
