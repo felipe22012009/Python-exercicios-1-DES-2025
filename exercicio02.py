@@ -5,5 +5,5 @@
  if dia_01 < 0 or dia_02 < 0 or dia_03 < 0:
     print("erro números negativo")
 else:
-    soma = dias_01 + dias_02 + dias_03
+soma = dias_01 + dias_02 + dias_03
     print(f"tempo total do projeto:{soma} dias")
