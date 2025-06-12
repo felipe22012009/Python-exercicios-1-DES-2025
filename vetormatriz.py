@@ -1,7 +1,7 @@
 aluno = ["alice", "bruno", "carla",]
 dias = ["seg", "ter", "qua", "qui",]
 
-reserva = [{"ausente" for _ in dias} for _ in alunos]
+reserva = [{"ausente" for _ in dias} for _ in alunos"]
 
 print("preencha com 'S' para presença e 'X' para ausência:")
 

@@ -1,7 +1,7 @@
-acesso_plataforma = int(input("digite o horario que voccê está tentando acessar a plataforma: "))
+acesso_plataforma = int(input("Digite o horário que você está tentando acessar a plataforma: "))
 if acesso_plataforma == 9:
-    print("horario altorizado. ")
+    print("Horário autorizado.")
 elif acesso_plataforma == 21:
-    print("horario altorizado. ")
+    print("Horário autorizado.")
 else:
-    print("horario não altorizado. ")
+    print("Horário não autorizado.")

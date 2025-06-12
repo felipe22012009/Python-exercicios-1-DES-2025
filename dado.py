@@ -7,4 +7,4 @@ resultado = random.randint(1,6)
 print(f"O dado rolou : {resultado}");
 
 if resultado == 6 :
-print("Parabéns, você conseguiu")
+    print("Parabéns, você conseguiu")
